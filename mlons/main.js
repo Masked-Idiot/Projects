@@ -6,12 +6,7 @@ melon.device.onReady(function () {
         return;
     }
     melon.game.world.backgroundColor.parseCSS("#202020");
-    melon.game.world.addChild(new melon.Text(609, 281, {
-        font: "Arial",
-        size: 160,
-        fillStyle: "#FFFFFF",
-        textBaseline : "middle",
-        textAlign : "center",
-        text : "Hello World !"
+    melon.game.world.addChild(new melon.ImageLayer(0, 0, {
+        image: "melons"
     }));
 });
