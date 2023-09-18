@@ -1,7 +1,7 @@
 import * as melon from "https://esm.run/melonjs";
 
 melon.device.onReady(function () {
-    if (!melon.video.init(800, 600, {parent : "game", scale : "auto"})) {
+    if (!melon.video.init(640, 480, {parent : "game", scale : "auto"})) {
         alert("Your browser does not support HTML5 canvas.");
         return;
     }
