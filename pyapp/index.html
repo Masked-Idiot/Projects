@@ -8,7 +8,8 @@
     <body>
         <py-config>
             plugins = ["https://pyscript.net/latest/plugins/python/py_tutor.py"]
-            files = ["./main.py", "./utils.py"]
+            [[fetch]]
+            files = ["./main.py"]
         </py-config>
         <script type="py" src="main.py"></script>
     </body>
